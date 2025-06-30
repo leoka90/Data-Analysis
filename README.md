@@ -1,12 +1,11 @@
-# 🩺 Medical Appointment No-Shows - Data Cleaning
+#  Medical Appointment No-Shows - Data Cleaning
 
-## 📄 Dataset
-This dataset contains information about over 100k medical appointments in Brazil and whether patients showed up or not.  
+##  Dataset  
 Source: [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
 
 ---
 
-## ✅ Steps Performed
+##  Steps Performed
 
 1. **Column Standardization**
    - Renamed all columns to lowercase and replaced hyphens (`-`) with underscores for Python compatibility.
@@ -34,11 +33,11 @@ Source: [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/
 
 8. **Exported Cleaned Dataset**
    - Saved final cleaned dataset as:  
-     ✅ `cleaned_medical_appointments.csv`
+     `cleaned_medical_appointments.csv`
 
 ---
 
-## 📁 Files in Repo
+## Files in Repo
 
 - `task1_cleaning.py` — Python script for cleaning and preprocessing  
 - `cleaned_medical_appointments.csv` — Final cleaned dataset  
@@ -46,7 +45,7 @@ Source: [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 - Used **Pandas** for robust data wrangling
 - Improved familiarity with **date conversion**, **column cleaning**, **IQR-based outlier removal**
